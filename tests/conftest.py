@@ -8,11 +8,11 @@ from utils import attach
 
 @pytest.fixture(scope='function')
 def setup_browser():
-    browser.config.base_url = 'https://demoqa.com'
+    browser.config.base_url = 'https://2gis.ru/novosibirsk'
     # browser.config.hold_driver_at_exit = True
     browser.config.window_width = 1920
     browser.config.window_height = 1080
-    browser_version = '100.0'
+    browser_version = '119.0'
     options = Options()
     selenoid_capabilities = {
         'browserName': 'chrome',
