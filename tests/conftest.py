@@ -8,7 +8,6 @@ from utils import attach
 
 @pytest.fixture(scope='function')
 def setup_browser():
-    browser.config.base_url = 'https://2gis.ru/novosibirsk'
     # browser.config.hold_driver_at_exit = True
     browser.config.window_width = 1920
     browser.config.window_height = 1080
